@@ -153,7 +153,7 @@ obs2.append(canvas.create_rectangle(w//2+190,h//2,w//2+65,h//2-10, fill="light g
 print(obs1)
 print(obs2)
 
-canvas.create_text(w//2,h//2+80,text="Press SPACE to start,\nmove with arrow keys",tag="start",fill="white",font="Arial 20")
+canvas.create_text(w//2,h//2+80,text="Press SPACE to start,\nmove with arrow keys",tag="start",fill="black",font="Arial 20")
 
 prepare_bricks()
 print(bricks)
